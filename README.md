@@ -5,7 +5,7 @@ Actualmente solo admite lobbies privados.
 
 Server:
 
-![image](Capture-1.png)
+![image](Capture-V8SO-Server.png)
 
 Client:
 
