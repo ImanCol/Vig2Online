@@ -24,8 +24,8 @@ Al actualizar desde versiones anteriores de este mod, debe parchear su archivo .
 
 
 ## Donate
-This is for improvements, could you help me with a donation to make it more exciting?
-Paypal paypal.me/imancol
+Esto esta destinado a mejoras, me podrias ayudar con una donacion para hecharle mas ganas
+[Paypal](paypal.me/imancol)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
