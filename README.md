@@ -22,6 +22,11 @@ Utilice VigOnlineX64.poc.exe o VigOnlineX86.poc.exe para parchear el archivo .bi
 
 Al actualizar desde versiones anteriores de este mod, debe parchear su archivo .bin nuevamente para estar actualizado.
 
+
+## Donate
+This is for improvements, could you help me with a donation to make it more exciting?
+Paypal paypal.me/imancol
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
