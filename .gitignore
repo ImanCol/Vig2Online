@@ -12,6 +12,8 @@
 /V8SO-*/*
 /Game*/*
 /V8SO-*/Build/Windows/Installer/Inno*/
+V8SO-*/Build/Windows/Portable/64-bits/Games/*
+V8SO-*/Build/Windows/Portable/64-bits/ePSXe/*
 
 # Incluir archivos que comienzan con "stream_" y tienen una extensión
 !/V8SO-*/Build/
@@ -81,3 +83,4 @@ crashlytics-build.properties
 *.iss
 
 *.zip
+

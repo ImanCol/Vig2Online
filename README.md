@@ -2,7 +2,6 @@
 
 Actualmente solo admite lobbies privados.
 
-
 Server:
 
 ![image](Capture-V8SO-Server.png)
@@ -22,6 +21,17 @@ Utilice VigOnlineX64.poc.exe o VigOnlineX86.poc.exe para parchear el archivo .bi
 
 Al actualizar desde versiones anteriores de este mod, debe parchear su archivo .bin nuevamente para estar actualizado.
 
+
+##Configuracion del Cliente
+Obtenga el ejecutable de 32 o 64 bits del V8SO-Client. Cree 2 carpetas junto al ejecutable (ePSXe y Games)
+![image](Capture-Config-1.png)
+En la carpeta ePSXe copia el emulador. En la carpeta Games copia el juego Vigilante 8 2nd Seccond Offense
+
+Cuando lance el juego, leera el archivo .cue contenido en la carpeta Games.
+Asegurate de tener la bios del emulador.
+Asegurate de tener V8SO Server abierto para conectarse con el cliente.
+
+#Disfruta!
 
 ## Donate
 Esto esta destinado a mejoras, me podrias ayudar con una donacion para hecharle mas ganas
