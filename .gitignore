@@ -81,5 +81,5 @@ crashlytics-build.properties
 
 # Project Build
 *.iss
-
 *.zip
+V8SO-Unity/Build/Windows/64-bits/Logs/*
