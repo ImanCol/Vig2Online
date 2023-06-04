@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ac75039f054254cbf4b4ca47153d04, type: 3}
+  m_Name: Music
+  m_EditorClassIdentifier: 
+  path: 
+  dirs:
+  - V82DCProto/
+  - V82PS1/
+  - V81PS1/
+  - V82N64/
+  - V81N64/
+  tracks:
+  - list:
+    - Music/V82DCProto/01. V8 Theme (Prototype).ogg
+    - Music/V82DCProto/02. Boogie Fever (Prototype).ogg
+    - Music/V82DCProto/03. Return to Houston (Prototype).ogg
+    - Music/V82DCProto/04. OK To Be Loco (Prototype).ogg
+    - Music/V82DCProto/05. Rock My Bus (Prototype).ogg
+    - Music/V82DCProto/06. Rollerqueen (Prototype).ogg
+    - Music/V82DCProto/07. Road to Madness (Prototype).ogg
+    - Music/V82DCProto/08. Convoy Country (Prototype).ogg
+    - Music/V82DCProto/09. Dave's Theme (Prototype).ogg
+    - Music/V82DCProto/10. Gimme Mo' Torque (Prototype).ogg
+    - Music/V82DCProto/11. Obsession In D- (Prototype).ogg
+    - Music/V82DCProto/12. Stargazers (Prototype).ogg
+    - Music/V82DCProto/13. Future Two (Prototype).ogg
+  - list:
+    - Music/V82PS1/04. V8 Theme.ogg
+    - Music/V82PS1/05. Boogie Fever.ogg
+    - Music/V82PS1/06. Return to Houston.ogg
+    - Music/V82PS1/07. OK To Be Loco.ogg
+    - Music/V82PS1/08. Rock My Bus.ogg
+    - Music/V82PS1/09. Rollerqueen.ogg
+    - Music/V82PS1/10. Road to Madness.ogg
+    - Music/V82PS1/11. Convoy Country.ogg
+    - Music/V82PS1/12. Dave's Theme.ogg
+    - Music/V82PS1/13. Gimme Mo' Torque.ogg
+    - Music/V82PS1/14. Obsession In D-.ogg
+    - Music/V82PS1/15. Chassey's Chase.ogg
+    - Music/V82PS1/16. Stargazers.ogg
+    - Music/V82PS1/17. Future Two.ogg
+    - Music/V82PS1/18. Go Team FAST.ogg
+    - Music/V82PS1/19. V8 Reprise.ogg
+  - list:
+    - Music/V81PS1/04. Boogie.ogg
+    - Music/V81PS1/05. Beezwax.ogg
+    - Music/V81PS1/06. Chassey.ogg
+    - Music/V81PS1/07. Convoy.ogg
+    - Music/V81PS1/08. Dave.ogg
+    - Music/V81PS1/09. Houston 3.ogg
+    - Music/V81PS1/10. John Torque.ogg
+    - Music/V81PS1/11. Loki.ogg
+    - Music/V81PS1/12. Molo.ogg
+    - Music/V81PS1/13. Sheila.ogg
+    - Music/V81PS1/14. Sid Burn.ogg
+    - Music/V81PS1/15. Slick Clyde.ogg
+    - Music/V81PS1/16. Vigilante Shuffle.ogg
+    - Music/V81PS1/17. Spineless Funk.ogg
+    - Music/V81PS1/18. Credits Mix.ogg
+  - list:
+    - Music/V82N64/02. V8 Theme.ogg
+    - Music/V82N64/03. Boogie Fever.ogg
+    - Music/V82N64/04. OK to be Loco.ogg
+    - Music/V82N64/05. Rollerqueen.ogg
+    - Music/V82N64/06. Convoy Country.ogg
+    - Music/V82N64/07. Gimme Mo' Torque.ogg
+    - Music/V82N64/08. Chassey's Chase.ogg
+    - Music/V82N64/09. Go Team FAST.ogg
+    - Music/V82N64/10. Obsession In D-.ogg
+    - Music/V82N64/11. Stargazers.ogg
+    - Music/V82N64/12. Future Two.ogg
+  - list:
+    - Music/V81N64/02. Boogie.ogg
+    - Music/V81N64/03. Women Power.ogg
+    - Music/V81N64/04. Ghost Town.ogg
+    - Music/V81N64/05. Vegas.ogg
+    - Music/V81N64/06. Desert Drive.ogg
+    - Music/V81N64/07. Wind Farm.ogg
+    - Music/V81N64/08. Sky Hammer Mortars.ogg
+    - Music/V81N64/09. Dreamland.ogg

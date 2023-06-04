@@ -82,4 +82,14 @@ crashlytics-build.properties
 # Project Build
 *.iss
 *.zip
-V8SO-Unity/Build/Windows/64-bits/Logs/*
+V8SO-Unity/Build/Windows/V8GO-DEBUG2/V8SO_Data/StreamingAssets/Music/*
+V8SO-Unity/Build/Windows/V8GO-DEBUG2-LOW/V8SO_Data/StreamingAssets/Music/*
+V8SO-Unity/Build/Android/32*/*
+V8SO-Unity/Build/Windows/64*/*
+V8SO-Unity/Build/Windows/Mod*/*
+V8SO-Unity/Build/Windows/Test*/*
+V8SO-Unity/Build/Windows/V8GO-DEBUG2-LOW*/*
+V8SO-Unity/Build/Windows/V8GO/*
+V8SO-Unity/Build/Windows/D12*/*
+V8SO-Unity/Build/Windows/BEP*/*
+V8SO-Unity/Build/Windows/64*/*

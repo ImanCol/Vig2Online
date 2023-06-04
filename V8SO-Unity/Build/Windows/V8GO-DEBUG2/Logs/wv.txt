@@ -1,0 +1,23 @@
+[04/06/2023 12:16:34 a. m.] - V2UnityDiscordIntercept.VigServer.CreateLobby - Created server with id: -6489613648669815904
+[04/06/2023 12:16:34 a. m.] - V2UnityDiscordIntercept.VigClient.ConnectToLobby - Connecting to server at localhost:14697
+[04/06/2023 12:16:34 a. m.] - V2UnityDiscordIntercept.VigClient.ConnectToLobby - Created connection with id: -4751033406872583341
+[04/06/2023 12:16:34 a. m.] - V2UnityDiscordIntercept.Patches.DiscordController_SetLobbyOwner_Patch.SetLobbyOwner - Setting lobby owner
+[04/06/2023 12:16:34 a. m.] - V2UnityDiscordIntercept.VigClient.StatusChanged - StatusChanged: InitiatedConnect - Locally requested connect
+[04/06/2023 12:16:34 a. m.] - V2UnityDiscordIntercept.VigServer.StatusChanged - StatusChanged: RespondedAwaitingApproval:-4751033406872583341 - Awaiting approval
+[04/06/2023 12:16:34 a. m.] - V2UnityDiscordIntercept.VigServer.ConnectionApproval - Connection approval requested from -4751033406872583341
+[04/06/2023 12:16:34 a. m.] - V2UnityDiscordIntercept.VigServer.StatusChanged - StatusChanged: RespondedConnect:-4751033406872583341 - Remotely requested connect
+[04/06/2023 12:16:34 a. m.] - V2UnityDiscordIntercept.VigClient.StatusChanged - StatusChanged: Connected - Connected to A04B821DC542F0A5
+[04/06/2023 12:16:34 a. m.] - V2UnityDiscordIntercept.VigClient.StatusChanged - MemberId: 0
+[04/06/2023 12:16:34 a. m.] - V2UnityDiscordIntercept.Patches.Demo_JoinLobby_Patch.JoinLobby - Joining lobby
+[04/06/2023 12:16:34 a. m.] - V2UnityDiscordIntercept.VigClient.JoinLobby - Joined Lobby
+[04/06/2023 12:16:34 a. m.] - V2UnityDiscordIntercept.VigServer.StatusChanged - StatusChanged: Connected:-4751033406872583341 - Connected to 538358DB49F010BE
+[04/06/2023 12:16:50 a. m.] - V2UnityDiscordIntercept.Patches.DiscordController_SendNetworkMessageToUser_Patch.SendNetworkMessageToUser - Sending network message to user: -4751033406872583341
+[04/06/2023 12:16:51 a. m.] - V2UnityDiscordIntercept.Patches.DiscordController_GetMemberId_Patch.GetMemberId - Got member id: 0
+[04/06/2023 12:23:44 a. m.] - V2UnityDiscordIntercept.Patches.DiscordController_DisconnectNetwork2_Patch.DisconnectNetwork2 - Disconnecting network
+[04/06/2023 12:23:44 a. m.] - V2UnityDiscordIntercept.Patches.Demo_LeaveLobby_Patch.LeaveLobby - Leaving lobby
+[04/06/2023 12:23:44 a. m.] - V2UnityDiscordIntercept.VigServer.DeleteLobby - Deleting the lobby
+[04/06/2023 12:23:45 a. m.] - V2UnityDiscordIntercept.VigClient.StatusChanged - StatusChanged: Disconnecting - wv has disconnected.
+[04/06/2023 12:23:45 a. m.] - V2UnityDiscordIntercept.VigClient.StatusChanged - StatusChanged: Disconnected - The server is shutting down.
+[04/06/2023 12:23:45 a. m.] - V2UnityDiscordIntercept.Patches.DiscordController_OnApplicationQuit_Patch.OnApplicationQuit - DiscordController.OnApplicationQuit
+[04/06/2023 12:23:45 a. m.] - V2UnityDiscordIntercept.Patches.DiscordController_DisconnectNetwork2_Patch.DisconnectNetwork2 - Disconnecting network
+[04/06/2023 12:23:45 a. m.] - V2UnityDiscordIntercept.Patches.Demo_LeaveLobby_Patch.LeaveLobby - Leaving lobby
