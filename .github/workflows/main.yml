@@ -1,0 +1,95 @@
+- name: Unity - Builder
+  # You may pin to the exact commit or the version.
+  # uses: game-ci/unity-builder@0efa1855a3c37ab64c3a9e221a939a967932923c
+  uses: game-ci/unity-builder@v2.2.0
+  with:
+    # Platform that the build should target.
+    targetPlatform: # default is 
+    # Version of unity to use for building the project. Use "auto" to get from your ProjectSettings/ProjectVersion.txt
+    unityVersion: # optional, default is auto
+    # Specific docker image that should be used for building the project
+    customImage: # optional, default is 
+    # Relative path to the project to be built.
+    projectPath: # optional, default is 
+    # Name of the build. Should not include a file extension.
+    buildName: # optional, default is 
+    # Path where the builds should be stored.
+    buildsPath: # optional, default is 
+    # Path to a Namespace.Class.StaticMethod to run to perform the build.
+    buildMethod: # optional, default is 
+    # Custom parameters to configure the build.
+    customParameters: # optional, default is 
+    # The versioning scheme to use when building the project
+    versioning: # optional, default is Semantic
+    # The version, when used with the "Custom" versioning scheme
+    version: # optional, default is 
+    # The android versionCode
+    androidVersionCode: # optional, default is 
+    # [Deprecated] Use androidExportType instead. Whether to build .aab instead of .apk
+    androidAppBundle: # optional, default is false
+    # The android export type. Should be androidPackage for apk, androidAppBundle for aab, or androidStudioProject for an android studio project.
+    androidExportType: # optional
+    # The android keystoreName
+    androidKeystoreName: # optional, default is 
+    # The base64 contents of the android keystore file
+    androidKeystoreBase64: # optional, default is 
+    # The android keystorePass
+    androidKeystorePass: # optional, default is 
+    # The android keyaliasName
+    androidKeyaliasName: # optional, default is 
+    # The android keyaliasPass
+    androidKeyaliasPass: # optional, default is 
+    # The android target API level.
+    androidTargetSdkVersion: # optional, default is 
+    # The android symbol type to export. Should be "none", "public" or "debugging".
+    androidSymbolType: # optional, default is none
+    # SSH Agent path to forward to the container
+    sshAgent: # optional, default is public
+    # [CloudRunner] Github private token to pull from github
+    gitPrivateToken: # optional, default is 
+    # [CloudRunner] GitHub owner name or organization/team name
+    githubOwner: # optional, default is 
+    # User and optionally group (user or user:group or uid:gid) to give ownership of the resulting build artifacts
+    chownFilesTo: # optional, default is 
+    # [CloudRunner] Allows the branch of the build to be dirty, and still generate the build.
+    allowDirtyBuild: # optional, default is 
+    # [CloudRunner] run a post build job in yaml format with the keys image, secrets (name, value object array), command string
+    postBuildSteps: # optional, default is 
+    # [CloudRunner] Run a pre build job after the repository setup but before the build job (in yaml format with the keys image, secrets (name, value object array), command line string)
+    preBuildSteps: # optional, default is 
+    # [CloudRunner] Specify the names (by file name) of custom steps to run before or after cloud runner jobs, must match a yaml step file inside your repo in the folder .game-ci/steps/
+    customStepFiles: # optional, default is 
+    # [CloudRunner] Specify the names (by file name) of custom hooks to run before or after cloud runner jobs, must match a yaml step file inside your repo in the folder .game-ci/hooks/
+    customHookFiles: # optional, default is 
+    # [CloudRunner] Specify custom commands and trigger hooks (injects commands into jobs)
+    customJobHooks: # optional, default is 
+    # [CloudRunner] Run a custom job instead of the standard build automation for cloud runner (in yaml format with the keys image, secrets (name, value object array), command line string)
+    customJob: # optional, default is 
+    # [CloudRunner] The Cloud Formation stack name that must be setup before using this option.
+    awsBaseStackName: # optional, default is game-ci
+    # [CloudRunner] Either local, k8s or aws can be used to run builds on a remote cluster. Additional parameters must be configured.
+    cloudRunnerCluster: # optional, default is local
+    # [CloudRunner] Amount of CPU time to assign the remote build container
+    cloudRunnerCpu: # optional, default is 
+    # [CloudRunner] Amount of memory to assign the remote build container
+    cloudRunnerMemory: # optional, default is 
+    # [CloudRunner] Comma separated list of input value names to read from "input override command"
+    readInputFromOverrideList: # optional, default is 
+    # [CloudRunner] Extend game ci by specifying a command to execute to pull input from external source e.g cloud provider secret managers
+    readInputOverrideCommand: # optional, default is 
+    # [CloudRunner] Supply a base64 encoded kubernetes config to run builds on kubernetes and stream logs until completion.
+    kubeConfig: # optional, default is 
+    # [CloudRunner] Supply a Persistent Volume Claim name to use for the Unity build.
+    kubeVolume: # optional, default is 
+    # [CloudRunner] Kubernetes storage class to use for cloud runner jobs, leave empty to install rook cluster.
+    kubeStorageClass: # optional, default is 
+    # [CloudRunner] Amount of disc space to assign the Kubernetes Persistent Volume
+    kubeVolumeSize: # optional, default is 5Gi
+    # [CloudRunner] Cache key to indicate bucket for cache
+    cacheKey: # optional, default is 
+    # [CloudRunner] Whether or not to watch the build to the end. Can be used for especially long running jobs e.g imports or self-hosted ephemeral runners.
+    watchToEnd: # optional, default is true
+    # Whether to cache the Unity hub and editor installation on MacOS
+    cacheUnityInstallationOnMac: # optional, default is false
+    # The version of Unity Hub to install on MacOS (e.g. 3.4.0). Defaults to latest available on brew if empty string or nothing is specified.
+    unityHubVersionOnMac: # optional, default is 
