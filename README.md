@@ -1,4 +1,5 @@
 # V8GO
+Server: https://discord.gg/qeKCsKtqWD
 
 Lobby:
 ![image](https://github.com/ImanCol/Vig2Online/assets/26169049/4faea668-2297-48b0-81a1-ef0bcbe28bde)
